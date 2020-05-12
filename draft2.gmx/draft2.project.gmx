@@ -5,9 +5,30 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_englishPorter</sprite>
+    <sprite>sprites\sp_you</sprite>
+    <sprite>sprites\sp_block</sprite>
+    <sprite>sprites\sp_mefight</sprite>
+    <sprite>sprites\sp_englishPorter_fight</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_main</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\o_you</object>
+    <object>objects\o_block</object>
+    <object>objects\o_englishPorter</object>
+    <object>objects\o_persistent</object>
+    <object>objects\o_you_fight</object>
+    <object>objects\o_englishPorter_fight</object>
+    <object>objects\o_beer_fight</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+    <room>rooms\fighting</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
